@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		63F4691767BA7E30AD42A727 /* Pods_AvaWomenTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DB65786EA2D70E6C1796BE4F /* Pods_AvaWomenTest.framework */; };
 		EB87D4341E45FD26002C24F7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB87D4331E45FD26002C24F7 /* AppDelegate.swift */; };
 		EB87D4361E45FD26002C24F7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB87D4351E45FD26002C24F7 /* ViewController.swift */; };
 		EB87D4391E45FD26002C24F7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB87D4371E45FD26002C24F7 /* Main.storyboard */; };
 		EB87D43C1E45FD26002C24F7 /* AvaWomenTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EB87D43A1E45FD26002C24F7 /* AvaWomenTest.xcdatamodeld */; };
 		EB87D43E1E45FD26002C24F7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB87D43D1E45FD26002C24F7 /* Assets.xcassets */; };
 		EB87D4411E45FD26002C24F7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB87D43F1E45FD26002C24F7 /* LaunchScreen.storyboard */; };
+		EB87D44A1E45FE48002C24F7 /* ColorHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB87D4491E45FE48002C24F7 /* ColorHelper.swift */; };
+		EB87D44C1E45FE6C002C24F7 /* AlertHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB87D44B1E45FE6C002C24F7 /* AlertHelper.swift */; };
+		EB87D4641E469495002C24F7 /* CurrentUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB87D4631E469495002C24F7 /* CurrentUser.swift */; };
+		EB87D4661E4694F6002C24F7 /* CurrentDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB87D4651E4694F6002C24F7 /* CurrentDate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		209D9226C02EE713A62DE9A8 /* Pods-AvaWomenTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvaWomenTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-AvaWomenTest/Pods-AvaWomenTest.release.xcconfig"; sourceTree = "<group>"; };
+		4F91C85A4E4AD63B20558CF7 /* Pods-AvaWomenTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AvaWomenTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AvaWomenTest/Pods-AvaWomenTest.debug.xcconfig"; sourceTree = "<group>"; };
+		DB65786EA2D70E6C1796BE4F /* Pods_AvaWomenTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AvaWomenTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB87D4301E45FD26002C24F7 /* AvaWomenTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvaWomenTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB87D4331E45FD26002C24F7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB87D4351E45FD26002C24F7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +32,10 @@
 		EB87D43D1E45FD26002C24F7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB87D4401E45FD26002C24F7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB87D4421E45FD26002C24F7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB87D4491E45FE48002C24F7 /* ColorHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorHelper.swift; sourceTree = "<group>"; };
+		EB87D44B1E45FE6C002C24F7 /* AlertHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertHelper.swift; sourceTree = "<group>"; };
+		EB87D4631E469495002C24F7 /* CurrentUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentUser.swift; sourceTree = "<group>"; };
+		EB87D4651E4694F6002C24F7 /* CurrentDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CurrentDate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				63F4691767BA7E30AD42A727 /* Pods_AvaWomenTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		14AD90E0C8102B2270E0AE98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DB65786EA2D70E6C1796BE4F /* Pods_AvaWomenTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5CB9F2E8105FB21CDEB6D5E6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4F91C85A4E4AD63B20558CF7 /* Pods-AvaWomenTest.debug.xcconfig */,
+				209D9226C02EE713A62DE9A8 /* Pods-AvaWomenTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		EB87D4271E45FD26002C24F7 = {
 			isa = PBXGroup;
 			children = (
 				EB87D4321E45FD26002C24F7 /* AvaWomenTest */,
 				EB87D4311E45FD26002C24F7 /* Products */,
+				EBD4DEE01E47693D0054D217 /* Helpers */,
+				5CB9F2E8105FB21CDEB6D5E6 /* Pods */,
+				14AD90E0C8102B2270E0AE98 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,8 +96,27 @@
 				EB87D43F1E45FD26002C24F7 /* LaunchScreen.storyboard */,
 				EB87D4421E45FD26002C24F7 /* Info.plist */,
 				EB87D43A1E45FD26002C24F7 /* AvaWomenTest.xcdatamodeld */,
+				EBD4DEDF1E47692D0054D217 /* Models */,
 			);
 			path = AvaWomenTest;
+			sourceTree = "<group>";
+		};
+		EBD4DEDF1E47692D0054D217 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EB87D4631E469495002C24F7 /* CurrentUser.swift */,
+				EB87D4651E4694F6002C24F7 /* CurrentDate.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		EBD4DEE01E47693D0054D217 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				EB87D4491E45FE48002C24F7 /* ColorHelper.swift */,
+				EB87D44B1E45FE6C002C24F7 /* AlertHelper.swift */,
+			);
+			name = Helpers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +126,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EB87D4451E45FD26002C24F7 /* Build configuration list for PBXNativeTarget "AvaWomenTest" */;
 			buildPhases = (
+				8DA56CFAE1B95352CB4D0766 /* [CP] Check Pods Manifest.lock */,
 				EB87D42C1E45FD26002C24F7 /* Sources */,
 				EB87D42D1E45FD26002C24F7 /* Frameworks */,
 				EB87D42E1E45FD26002C24F7 /* Resources */,
+				53D8AB8FF7068125EE232B1E /* [CP] Embed Pods Frameworks */,
+				30E6BFAE8C84D3EB5CB8C643 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -134,6 +189,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		30E6BFAE8C84D3EB5CB8C643 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AvaWomenTest/Pods-AvaWomenTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		53D8AB8FF7068125EE232B1E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AvaWomenTest/Pods-AvaWomenTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DA56CFAE1B95352CB4D0766 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EB87D42C1E45FD26002C24F7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -142,6 +245,10 @@
 				EB87D43C1E45FD26002C24F7 /* AvaWomenTest.xcdatamodeld in Sources */,
 				EB87D4361E45FD26002C24F7 /* ViewController.swift in Sources */,
 				EB87D4341E45FD26002C24F7 /* AppDelegate.swift in Sources */,
+				EB87D44C1E45FE6C002C24F7 /* AlertHelper.swift in Sources */,
+				EB87D4661E4694F6002C24F7 /* CurrentDate.swift in Sources */,
+				EB87D4641E469495002C24F7 /* CurrentUser.swift in Sources */,
+				EB87D44A1E45FE48002C24F7 /* ColorHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,6 +369,7 @@
 		};
 		EB87D4461E45FD26002C24F7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F91C85A4E4AD63B20558CF7 /* Pods-AvaWomenTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AvaWomenTest/Info.plist;
@@ -274,6 +382,7 @@
 		};
 		EB87D4471E45FD26002C24F7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 209D9226C02EE713A62DE9A8 /* Pods-AvaWomenTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = AvaWomenTest/Info.plist;
@@ -303,6 +412,7 @@
 				EB87D4471E45FD26002C24F7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
